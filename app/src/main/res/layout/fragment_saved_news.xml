@@ -38,15 +38,22 @@
 
 
         <EditText
+            android:id="@+id/search_saved_news"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/edit_text_bg"
-            android:elevation="10dp"
-            android:padding="8dp"
             android:drawableEnd="@drawable/ic_baseline_search_24"
-            android:hint="Search..."
-            android:id="@+id/search_saved_news"
-            android:layout_margin="8dp"/>
+            android:elevation="10dp"
+            android:hint="Search Keyword"
+            android:padding="8dp"/>
 
 
         <com.google.android.material.divider.MaterialDivider
