@@ -50,11 +50,10 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 bundle
             )
         }
-        var job : Job?= null
-
+        var job1 : Job?= null
         etSearch.addTextChangedListener{str->
-            job?.cancel()
-            job = MainScope().launch {
+            job1?.cancel()
+            job1 = MainScope().launch {
                 delay(500L)
                 str?.let {
                     if(str.toString().isNotEmpty()){
