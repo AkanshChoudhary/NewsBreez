@@ -41,6 +41,7 @@ Contains basic constant Strings and Resource Handling class for Loading, Success
 * Highly Scalable, Readable.
 * Searching functionality in Saved News based on title.
 * Works in both Light and Dark Modes as per phone's settings.
+* Using CoRoutines for async tasks on different thread rather than on Main Thread.
 
 ## Challenges Faced
 * Since **newsapi.org** does not provide full news content in free version making a news detail screen was not possible as relevant content was trimmed. So to present full information to user WebView was implemented which opens the article URL in the fragment as a webpage.
